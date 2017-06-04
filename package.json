@@ -1,17 +1,30 @@
 {
   "name": "league-viewer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A League of Legends match viewer written in React",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "@types/react": "^15.0.25",
     "@types/react-dom": "^15.5.0",
+    "bulma": "^0.4.2",
+    "league-search": "file:../league-search",
+    "lodash": "^4.17.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "league-match-search": "file:../league-search"
+    "react-youtube-player": "^2.0.1"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.64",
     "awesome-typescript-loader": "^3.1.3",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
     "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.1",
     "typescript": "^2.3.2",
     "webpack": "^2.6.1"
   }

@@ -96,9 +96,9 @@ export class LeagueViewer extends React.Component<LeagueViewerProps, LeagueViewe
             onPrevious: this.handlePrev
         };
 
-        return <div style={{height: '100vh'}}>
+        return <div style={{height: '100vh', marginLeft: '10px'}}>
             <div className="tile is-ancestor is-gapless">
-                <div className="tile is-5 is-vertical is-parent is-gapless">
+                <div className="tile is-5 is-vertical is-parent is-gapless" style={{marginTop: '10px'}}>
                     <div className="tile is-child box">
                         <SearchControls {...controlProps}/>
                     </div>
